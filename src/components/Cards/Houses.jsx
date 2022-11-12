@@ -49,7 +49,7 @@ const Houses = () => {
     display = Object.entries(houses).map((house, i) => {
         let {name, description, motto, animal, element, houseColors, crest} = house[1];
         return (
-            <Link style={{textDecoration: 'none'}} to={`/${name}`} state={{houseName: name}} key={i} className='col-lg-6 col-md-6 col-12 mb-4 position-relative text-dark'>
+            <Link style={{textDecoration: 'none'}} to={`/${name}`} state={{houseName: name}} key={i} className='col-lg-3 col-md-6 col-12 mb-4 position-relative text-dark'>
                 <div className={`${styles.cards} d-flex flex-column justify-content-center`}>
                     <img src={crest} alt={animal} className={`${styles.img} img-fluid`} />
                     <div className={`${styles.content} content`}>

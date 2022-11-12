@@ -9,6 +9,7 @@ import Navbar from './components/Navbar/Navbar';
 import SpellDetails from './components/Cards/SpellDetails';
 import Houses from './components/Cards/Houses';
 import HouseCharacters from './components/Cards/HouseCharacters';
+import HouseDetails from './components/Cards/HouseDetails';
 
 const API_URL = 'https://hp-api.herokuapp.com/api/characters';
 const API_SPELLS_URL = 'https://hp-api.herokuapp.com/api/spells';
@@ -21,6 +22,10 @@ function App() {
         <Routes>
           <Route path='/hpwiki' element={<Home />} />
           <Route path='/:id' element={<CharacterDetails />} />
+          <Route path='/Gryffindor/:id' element={<HouseDetails />} />
+          <Route path='/Hufflepuff/:id' element={<HouseDetails />} />
+          <Route path='/Ravenclaw/:id' element={<HouseDetails />} />
+          <Route path='/Slytherin/:id' element={<HouseDetails />} />
           <Route path='/spells' element={<Spells />} />
           <Route path='/house' element={<House />} />
           <Route path='/Gryffindor' element={<HouseRoster />} />

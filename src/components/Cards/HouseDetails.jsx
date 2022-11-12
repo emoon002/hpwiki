@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react'
+import { useLocation, useParams } from 'react-router-dom';
 import '../../App.css';
 import placeholder from '../../../src/images/placeholder.png';
 
-const API_URL = 'https://hp-api.herokuapp.com/api/characters';
-
-const CharacterDetails = () => {
-
+const HouseDetails = () => {
+    const location = useLocation();
+    const { api } = location.state;
     let {id} = useParams();
     const [fetchedData, setFetchedData] = useState([]);
     const character = fetchedData.filter((char, index) => index === Number(id));
@@ -16,10 +15,10 @@ const CharacterDetails = () => {
     
     useEffect(() => {
         (async () => {
-          let data = await fetch(API_URL).then(res => res.json());
+          let data = await fetch(api).then(res => res.json());
           setFetchedData(data);
         })()
-      }, []);  
+      }, [api]);  
 
     return (
         <div className='details-container d-flex justify-content-center'>
@@ -78,4 +77,4 @@ const CharacterDetails = () => {
     )
 }
 
-export default CharacterDetails
+export default HouseDetails
