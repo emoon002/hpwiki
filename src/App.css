@@ -6,6 +6,11 @@
     -o-background-size: cover;
 }
 
+.active {
+    border-bottom: 3px solid yellow;
+    font-weight: bold;
+}
+
 .content {
     color: white;
     text-align: center;
