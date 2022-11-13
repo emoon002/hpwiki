@@ -9,7 +9,7 @@ const CharacterCards = ({fetchedData}) => {
 
     if(fetchedData) {
         display = fetchedData.map((character, i) => {
-            let {name, alternate_names, species, gender, house, dateOfBirth, yearOfBirth, wizard, ancestry, eyeColour, hairColour, wand, patronus, hogwartsStudent, hogwartsStaff, actor, alive, image} = character;
+            let {name, house, alive, image} = character;
 
             return (
                 <Link style={{textDecoration: 'none'}} to={`/${i}`} key={i} className='col-lg-4 col-md-6 col-12 mb-4 position-relative text-dark'>
