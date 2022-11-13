@@ -33,6 +33,10 @@ html, body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.card-footer {
+    background-color: rgba(29, 6, 47, 0.8);
+}
+
 .details {
     width: 400px;
     height: auto;

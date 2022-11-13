@@ -17,7 +17,7 @@ const CharacterCards = ({fetchedData}) => {
                         <img src={image !== '' ? image : placeholder} alt={name} className={`${styles.img} img-fluid`} />
                         <div className={`${styles.content} content`}>
                             <div className='fs-4 fw-bold mb-4 text-warning'>{name}</div>
-                            <div className="fs-5 text-info">{house}</div>
+                            <div className="fs-5 fw-bold card-footer text-info">{house}</div>
                         </div>
                         <div className="fs-5">{alive}</div>
                     </div>
