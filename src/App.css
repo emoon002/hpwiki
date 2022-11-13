@@ -29,6 +29,10 @@ html, body {
     margin: auto;
 }
 
+.transparent {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 .details {
     width: 400px;
     height: auto;

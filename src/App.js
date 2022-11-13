@@ -10,6 +10,7 @@ import SpellDetails from './components/Cards/SpellDetails';
 import Houses from './components/Cards/Houses';
 import HouseCharacters from './components/Cards/HouseCharacters';
 import HouseDetails from './components/Cards/HouseDetails';
+import ScrollToTop from './components/Helpers/ScrollToTop';
 
 const API_URL = 'https://hp-api.herokuapp.com/api/characters';
 const API_SPELLS_URL = 'https://hp-api.herokuapp.com/api/spells';
@@ -17,6 +18,7 @@ const API_SPELLS_URL = 'https://hp-api.herokuapp.com/api/spells';
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <div className='App'>
         <Navbar />
         <Routes>

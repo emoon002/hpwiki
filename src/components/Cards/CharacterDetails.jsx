@@ -24,7 +24,7 @@ const CharacterDetails = () => {
     return (
         <div className='details-container d-flex justify-content-center'>
             <div className="details d-flex flex-column gap-3 mb-5">
-                <h1 className="text-center text-warning fw-bold bg-dark test">{name}</h1>
+                <h1 className="text-center text-warning fw-bold p-3 transparent">{name}</h1>
                 <img src={image !== '' ? image : placeholder} alt="" className="img-fluid" />
                 {(() => {
                     if(alive === false){
@@ -38,7 +38,7 @@ const CharacterDetails = () => {
                         );
                     }
                 })()}
-                <div className="content fs-5 fw-bold bg-dark text-info p-3">
+                <div className="content fs-5 fw-bold text-info p-3 transparent">
                     <div className="">
                         <div className=""><span className='fw-bold text-warning'>Gender: </span>{gender}</div>
                     </div>
