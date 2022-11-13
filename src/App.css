@@ -24,6 +24,11 @@ html, body {
     height: 100vh;
 }
 
+.large-container {
+    max-width: 1800px;
+    margin: auto;
+}
+
 .details {
     width: 400px;
     height: auto;

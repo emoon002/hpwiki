@@ -51,14 +51,14 @@ const Houses = () => {
         return (
             <Link style={{textDecoration: 'none'}} to={`/${name}`} state={{houseName: name}} key={i} className='col-lg-3 col-md-6 col-12 mb-4 position-relative text-dark'>
                 <div className={`${styles.cards} d-flex flex-column justify-content-center`}>
-                    <img src={crest} alt={animal} className={`${styles.img} img-fluid`} />
+                    <img src={crest} alt={animal} className={`${styles.img} img-fluid p-2`} />
                     <div className={`${styles.content} content`}>
                         <div className={`fs-4 fw-bold mb-4 text-warning ${styles.name}`}>{name}</div>
-                        <div className={`fs-5 text-info mb-4 ${styles.description}`}>{description}</div>
-                        <div className="fs-5 text-info mb-4"><span className='text-warning'>Motto: </span>{motto}</div>
-                        <div className="fs-5 text-info mb-4"><span className='text-warning'>Animal: </span>{animal}</div>
-                        <div className="fs-5 text-info mb-4"><span className='text-warning'>Element: </span>{element}</div>
-                        <div className="fs-5 text-info mb-4"><span className='text-warning'>Colors: </span>{houseColors}</div>
+                        <div className={`fs-5 text-info mb-4 p-2 ${styles.description}`}>{description}</div>
+                        <div className="fs-5 text-info mb-4 p-2"><span className='text-warning'>Motto: </span>{motto}</div>
+                        <div className="fs-5 text-info mb-4 p-2"><span className='text-warning'>Animal: </span>{animal}</div>
+                        <div className="fs-5 text-info mb-4 p-2"><span className='text-warning'>Element: </span>{element}</div>
+                        <div className="fs-5 text-info mb-4 p-2"><span className='text-warning'>Colors: </span>{houseColors}</div>
                     </div>
                 </div>
             </Link>
