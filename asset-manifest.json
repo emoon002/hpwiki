@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hpwiki/static/css/main.e3479dcb.css",
+    "main.css": "/hpwiki/static/css/main.5b749c14.css",
     "main.js": "/hpwiki/static/js/main.e9dbf85e.js",
     "static/media/placeholder.png": "/hpwiki/static/media/placeholder.2db6e556b8ad1f4fa9da.png",
     "static/media/background.jpg": "/hpwiki/static/media/background.6bcf1bfc92def76b758f.jpg",
     "index.html": "/hpwiki/index.html",
-    "main.e3479dcb.css.map": "/hpwiki/static/css/main.e3479dcb.css.map",
+    "main.5b749c14.css.map": "/hpwiki/static/css/main.5b749c14.css.map",
     "main.e9dbf85e.js.map": "/hpwiki/static/js/main.e9dbf85e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3479dcb.css",
+    "static/css/main.5b749c14.css",
     "static/js/main.e9dbf85e.js"
   ]
 }
