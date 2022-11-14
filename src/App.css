@@ -33,6 +33,11 @@ html, body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.navbar-toggler {
+    border-color: yellow;
+    margin-right: 15px;
+}
+
 .card-footer {
     background-color: rgba(29, 6, 47, 0.8);
 }
@@ -55,3 +60,11 @@ html, body {
     text-align: center;
     opacity: 0.5;
   }
+
+@media screen and (max-width: 600px) {
+    .details-container {
+        max-width: 300px;
+        margin: auto;
+        height: 100%;
+    }
+}

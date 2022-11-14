@@ -57,7 +57,7 @@ const Home = () => {
       <h1 className='text-center text-warning fw-bold mb-4'>Characters</h1>
       <h6 className='text-center text-info fw-bold mb-4'>Click a Character to View More Details!</h6>
       <div className="large-container d-flex justify-content-center">
-        <div className="col-lg-8 col-12">
+        <div className="col-lg-8 col-10">
           <div className="row">
             <CharacterCards fetchedData={fetchedData} />
           </div>
@@ -82,7 +82,7 @@ const Spells = () => {
     <div className="App">
       <h1 className='text-center text-warning fw-bold mb-4'>Spells</h1>
       <div className="large-container d-flex justify-content-center">
-        <div className="col-lg-8 col-12">
+        <div className="col-lg-8 col-10">
           <div className="row">
             <SpellDetails fetchedData={fetchedData} />
           </div>
@@ -98,7 +98,7 @@ const House = () => {
       <h1 className='text-center text-warning fw-bold mb-4'>Houses</h1>
       <h6 className='text-center text-info fw-bold mb-4'>Click a House to View its Members!</h6>
       <div className="large-container d-flex justify-content-center">
-        <div className="col-lg-12 col-12">
+        <div className="col-lg-12 col-10">
           <div className="row">
             <Houses />
           </div>
@@ -113,7 +113,7 @@ const HouseRoster = () => {
     <div className="App">
       <h1 className='text-center text-warning fw-bold mb-4'>Members</h1>
       <div className="container d-flex justify-content-center">
-        <div className="col-lg-12 col-12">
+        <div className="col-lg-12 col-10">
           <div className="row">
             <HouseCharacters />
           </div>
