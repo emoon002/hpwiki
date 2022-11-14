@@ -34,7 +34,7 @@ html, body {
 }
 
 .navbar-toggler {
-    border-color: yellow;
+    border-width: 2px;
     margin-right: 15px;
 }
 

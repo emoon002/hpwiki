@@ -10,11 +10,17 @@ const Navbar = () => {
         <span class="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div className="navbar-nav fs-5 p-3">
-              <NavLink activeClassName="active" to="/hpwiki" className="nav-link fs-3">Characters</NavLink>
-              <NavLink to="/house" className="nav-link fs-3">Houses</NavLink>
-              <NavLink to="/spells" className="nav-link fs-3">Spells</NavLink>
-          </div>
+          <ul className="navbar-nav mr-auto mt-2 mt-lg-0 fs-5 p-3">
+              <li className='nav-item'>
+                <NavLink activeClassName="active" to="/hpwiki" className="nav-link fs-3">Characters</NavLink>
+              </li>
+              <li className='nav-item'>
+                <NavLink to="/house" className="nav-link fs-3">Houses</NavLink>
+              </li>
+              <li className='nav-item'>
+                <NavLink to="/spells" className="nav-link fs-3">Spells</NavLink>
+              </li>                          
+          </ul>
         </div>
     </nav>
   )
