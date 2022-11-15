@@ -2,12 +2,21 @@ html, body {
     height: 100%;
 }
 
+.Home {
+    background: url('/src/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 .App {
     background: url('/src/images/background.jpg') no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    height: 100%;
 }
 
 .active {
@@ -21,7 +30,7 @@ html, body {
 }
 
 .details-container {
-    height: 100vh;
+    max-height: 100%;
 }
 
 .large-container {
@@ -61,10 +70,22 @@ html, body {
     opacity: 0.5;
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .details-container {
         max-width: 300px;
         margin: auto;
-        height: 100%;
+    }
+
+    .App {
+        background: url('/src/images/background.jpg') no-repeat center center fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        overflow: scroll;
+    }
+
+    .details > img {
+        object-fit: contain;
     }
 }

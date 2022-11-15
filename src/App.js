@@ -53,7 +53,7 @@ const Home = () => {
   }, [])
 
   return (
-    <div className="App">
+    <div className="Home">
       <h1 className='text-center text-warning fw-bold mb-4'>Characters</h1>
       <h6 className='text-center text-info fw-bold mb-4'>Click a Character to View More Details!</h6>
       <div className="large-container d-flex justify-content-center">
