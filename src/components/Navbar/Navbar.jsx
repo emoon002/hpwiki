@@ -10,7 +10,7 @@ const Navbar = () => {
         <span class="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <ul className="navbar-nav mr-auto mt-2 mt-lg-0 fs-5 p-3">
+          <ul className="navbar-nav mt-2 mt-lg-0 fs-5 p-3">
               <li className='nav-item'>
                 <NavLink activeClassName="active" to="/hpwiki" className="nav-link fs-3">Characters</NavLink>
               </li>
