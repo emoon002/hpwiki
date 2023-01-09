@@ -10,7 +10,7 @@ const HouseCharacters = () => {
     const { houseName } = location.state;
     let [fetchedData, setFetchedData] = useState([]);
     let display;
-    const API_URL = `https://hp-api.herokuapp.com/api/characters/house/${houseName}`;
+    const API_URL = `https://hp-api.onrender.com/api/characters/house/${houseName}`;
 
     useEffect(() => {
         (async ()=> {

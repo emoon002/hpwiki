@@ -12,8 +12,8 @@ import HouseCharacters from './components/Cards/HouseCharacters';
 import HouseDetails from './components/Cards/HouseDetails';
 import ScrollToTop from './components/Helpers/ScrollToTop';
 
-const API_URL = 'https://hp-api.herokuapp.com/api/characters';
-const API_SPELLS_URL = 'https://hp-api.herokuapp.com/api/spells';
+const API_URL = 'https://hp-api.onrender.com/api/characters';
+const API_SPELLS_URL = 'https://hp-api.onrender.com/api/spells';
 
 function App() {
   return (

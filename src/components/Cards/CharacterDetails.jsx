@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import '../../App.css';
 import placeholder from '../../../src/images/placeholder.png';
 
-const API_URL = 'https://hp-api.herokuapp.com/api/characters';
+const API_URL = 'https://hp-api.onrender.com/api/characters';
 
 const CharacterDetails = () => {
 
