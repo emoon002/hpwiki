@@ -17,6 +17,7 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     height: 100%;
+    overflow: scroll;
 }
 
 .active {
